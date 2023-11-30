@@ -82,18 +82,30 @@ hr.star-primary:after {
 
 header {
     text-align: center;
+    align-items: center;
     color: #fff;
     background: #{{ site.color.primary }};
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    display:flex;
+    /* justify-content: center; */
+    /* padding-top: 100px; */
+    /* padding-bottom: 50px; */
+    
 }
 
+.maincontainer {
+    position: relative;
+}
+
+
 header img {
-    display: block;
-    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+    /* flex-shrink: 1; */
+    /* margin: 0 auto 20px; */
+    /* overflow: clip; */
 }
 
 header .intro-text .name {
@@ -101,7 +113,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 700;    
 }
 
 header .intro-text .skills {
@@ -110,10 +122,12 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
+    /* header .container {
+        width: auto;
+        max-height: 15%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    } */
 
     header .intro-text .name {
         font-size: 4.75em;
@@ -482,3 +496,52 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+
+img{
+    height: 100%;
+    width: 100%;
+    }
+    
+    .parentContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+    
+    .bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    }
+    
+    .top-left {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    }
+    
+    .top-right {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    }
+    
+    .bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    }
+    
+    .centered {
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    
+    }
