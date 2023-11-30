@@ -545,3 +545,14 @@ img{
     font-weight: 700;
     
     }
+    .top_centered {
+    position: absolute;
+    top: 30%;
+    /* left: 50%; */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    
+    }

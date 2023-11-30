@@ -1,22 +1,19 @@
 <!-- Header -->
-<!-- <header>
-  <div>
-  <img src="" alt="profile-pic" />
-    <div class="intro-text">
-      <span class="name">{{ site.title }}</span>
-      <hr class="star-light" />
-      <span class="skills">{{ site.skills }}</span>          
-    </div>
-  </div>
-</header> -->
-
-
-
-<!-- Header -->
 <header>
   <div class="parentContainer">
-    <img src="img/david_header.jpg" alt="Landscape">
-    <div style="text-shadow: 0 0 40px black;"class="centered col-lg-12 text-center">David Zamir</div>
+    <picture>
+      <source 
+        media="(min-width: 650px)"
+        srcset="img/david_header.jpg">
+      <source 
+        media="(min-width: 390px)"
+        srcset="img/david_header.jpg">
+      <img 
+        src="img/hiimdavid.png" 
+        alt="header image">
+    </picture>
+    
+    <div style="text-shadow: 0 0 40px black;" class="top_centered col-lg-12 text-center">David Zamir</div>
     </DIV>
   </div>
 </header>
