@@ -2,8 +2,8 @@
 layout: default
 modal-id: 1
 date: 2023-11-30
-img: cabin.png
-alt: image-alt
+img: embedded_computer.png
+alt: embedded_computer
 project-date: November 2023
 client: Start Bootstrap
 category: Web Development
